@@ -1,0 +1,10 @@
+<div layout="row" ng-if="loaded" layout-align="center center">
+    <md-button class="md-raised md-primary" ng-click="doCoolStuf()">Do Cool Stuff</md-button>
+</div>
+
+<div ng-controller="coolStuff">
+        Enter a number:
+        <input type="number" ng-model="number" />
+        <button ng-click="doSquare()">X<sup>2</sup></button>
+        <div>Answer: {{answer}}</div>
+</div>

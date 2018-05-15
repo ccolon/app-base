@@ -1,0 +1,22 @@
+fbody {
+    display: flex;
+  }
+  
+  .card_info {
+      width:100%;
+      background-color:rgba(240, 240, 240, 0.6);
+      color:rgb(60, 60, 60);
+      font-weight:bold;
+      text-align:center;
+      vertical-align:bottom;
+      font-family:Calibri;
+      border-radius:5px;
+  }
+  
+  .title_content {
+      color:black;
+      font-size:40px;
+      font-family:Calibri;
+      text-shadow: 1px 1px 1px #000000;
+      text-align:center;
+  }
